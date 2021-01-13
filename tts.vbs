@@ -1,11 +1,13 @@
-voic = inputbox("Voice (0 = male and 1 = female)")
-stroText = inputbox("Volume (Num.)")
-Text = inputbox("Speed (Num.)")
-strText = inputbox("Text (Text.)")
+Voice = inputbox("Voice (0 = male and 1 = female)")
+volume = inputbox("Volume (Num)")
+speed = inputbox("Speed (Num)")
+text = inputbox("Text")
 Set VObj = CreateObject("SAPI.SpVoice")
 	with VObj
-		Set .voice = .getvoices.item(voic)
-		.Volume =stroText
-		.Rate = Text
-		.Speak strText
+	Set .voice = .getvoices.item(Voice)
+		.Volume = volume
+		.Rate = speed
+		.Speak text
 	end with
+
+'*/ Hello, I need help to find volume and rate within audible range*/'
