@@ -10,4 +10,4 @@ Set VObj = CreateObject("SAPI.SpVoice")
 		.Speak text
 	end with
 
-'*/ Hello, I need help to find volume and rate within audible range*/'
+'*/ Hello, I need help to find volume and rate within comprehensible range*/'
